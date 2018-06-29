@@ -11,6 +11,7 @@ class Main{
 		n = sc.nextInt();
 		switch(n){
 			case 1:
+				cliente.cadastro();
 				break;
 			case 2:
 				break;
