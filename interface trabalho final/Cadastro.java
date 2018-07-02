@@ -1,7 +1,22 @@
+import javax.swing.*;
 import java.util.*;
-class Cadastro{
+class  Cadastro{
 	int data_de_nascimento;
-    String cpf,nome,telefone,email,sexo,endereco,estado; 
+    String cpf,nome,telefone,email,sexo,endereco,estado;
+    Cadastro(String nome, String cpf, String nasc, String cargo, double salario){
+		
+		this.cpf = cpf;
+		this.data_de_nascimento = data_de_nascimento;
+		this.nome = nome;
+		this.telefone = telefone;
+		this.email = email;
+		this.sexo = sexo;
+		this.endereco = endereco;
+		this.estado = estado;
+	}	
+	Cadastro(){
+		
+	} 
     void cadastrar(){
     	Scanner sc = new Scanner(System.in);
     	System.out.println("Insira o CPF");
